@@ -8,10 +8,24 @@
   text-align: center;
   background-color: rgb(0, 0, 255, 0.35) !important;
   height: 7vh;
-
   border-radius: 5rem;
   width: 95%;
-  margin: 1.5rem 1.3rem;
+  margin: 1.5rem 2rem;
+}
+@media (max-width:900px) {
+  .navbar{
+    margin: 1.5rem 1rem;
+  }
+}
+@media (max-width:500px) {
+  .navbar{
+    margin: 1.5rem .8rem;
+  }
+}
+@media (max-width:400px) {
+  .navbar{
+    margin: 1.5rem .6rem;
+  }
 }
 .text {
   text-align: center;
