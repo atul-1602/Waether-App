@@ -46,19 +46,31 @@ body {
   justify-content: center;
   text-align: center;
   flex-direction: column;
-
+  background-color: rgb(255, 255, 255, 0.3);
+}
+@media (max-width: 600px) {
+  .app-main {
+    width: 18rem;
+  }
+}
+@media (max-width: 400px) {
+  .app-main {
+    width: 14rem;
+    height: 27rem;
+  }
 }
 
 .input-box {
-  width: 100%;
+  width: 80%;
   background-color: rgb(255, 255, 255, 0.8);
   border: none;
   outline: none;
   color: #582233;
   font-size: 1.2rem;
-  height: 3.7rem;
+  height: 3rem;
   border-radius: 0.5rem;
   padding: 0rem 1rem;
+
   text-align: center;
 }
 .input-box:focus {
@@ -72,6 +84,13 @@ body {
   border-radius: 1rem;
   background-color: rgb(255, 255, 255, 0.3);
   height: 18rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+@media (max-width: 400px) {
+  .weather-body {
+    height: 20rem;
+  }
 }
 .location-details {
   font-weight: bold;
@@ -84,7 +103,19 @@ body {
   font-size: 50pt;
   font-weight: 700;
   margin: 2rem 0px;
+
   text-shadow: 0.2rem 0.4rem cc;
+}
+@media (max-width: 600px) {
+  .temp {
+    font-size: 38pt;
+  }
+}
+@media (max-width: 400px) {
+  .temp {
+    font-size: 26pt;
+    margin: 1rem 0rem;
+  }
 }
 .min-max,
 .weather {
@@ -94,4 +125,15 @@ body {
 .time {
   text-align: center;
   color: rgb(85, 7, 7);
+}
+@media (max-width: 600px) {
+  .time {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  .time {
+    font-size: 0.6rem;
+    font-weight: bolder;
+  }
 }
