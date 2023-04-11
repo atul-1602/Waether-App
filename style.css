@@ -138,6 +138,8 @@ body {
 }
 .time {
   text-align: center;
+  font-weight: bolder;
+  font-size:x-large;
   color: rgb(85, 7, 7);
 }
 @media (max-width: 600px) {
