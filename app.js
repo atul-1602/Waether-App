@@ -101,5 +101,9 @@ let date1 = document.getElementById("current-time");
 
 setInterval(() => {
   let d = new Date();
-  time.innerHTML = d.toLocaleTimeString();
+  currenttime.innerHTML = d.toLocaleTimeString();
+  currentdate.innerHTML = d.toDateString()
 }, 1000);
+
+
+// let p=
